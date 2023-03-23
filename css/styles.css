@@ -1,0 +1,251 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana,Arial;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #4d94ff;
+    height: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    width: 1060px;
+  }
+
+  .topnav a,  .topnav button {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 13px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: normal;
+  }
+
+  .topnav .rightbut{
+    float: right;
+    color: rgb(255, 255, 255);
+    background-color: #4d94ff;
+    border: none;
+  }
+
+  .topnav input{
+      float: right;
+      width: 300px;
+      height: 40px;
+      font-style: normal;
+      font-size: large;
+      display: block;
+  }
+
+span.close{
+    size: 30px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+}
+
+  .top {
+    display:block;
+    overflow: hidden;
+    float: right;
+    top: 3px;
+    width: 200px;
+    background-color: rgba(128, 128, 128, 0.226);
+    margin-left: auto;
+    position: relative;
+  }
+  
+  .top > div{
+    background-color: #f1f1f1;
+    font-size: 30px;
+  }
+
+  .top .ranking_header{
+    background-color: none;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    
+  }
+
+  .container{
+      top: 0px;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      text-align: left;
+      width: 1060px;
+  }
+
+  .container .booklist_header{
+    overflow: hidden;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+  }
+
+  .container .book{
+      overflow: hidden;
+      width: 800px;
+      height: 200px;
+  }
+
+  .container .book .image > img{
+    width: 105px;
+    float: left;
+    display: block;
+}
+
+.container .book .image > h1{
+    display: block;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+  .container .book .description{
+      overflow: hidden;
+      position: relative;
+      bottom: 10px;
+      left: 10px;
+      height: 150px;
+      margin-right: 20px;
+  }
+
+  .container .book .description > p{
+    text-overflow: ellipsis; 
+  }
+
+  .container .page > img{
+    width: 200px;
+    float: left;
+    display: block;
+    margin: 10px;
+  }
+
+  .container .page .description{
+    height: 200px;
+    display: inline-block;
+  }
+
+  .container .page .information{
+    width: 200px;
+    display: inline-block;
+    border: 2px solid;
+    margin-top: 10px;
+  }
+
+  .container .page .comments .comment{
+    margin-top: 10px;
+  }
+
+  .container .page .comments .comment > img{
+    width: 60px;
+  }
+
+  .container .page .comments .comment > h1{
+    display: inline;
+    vertical-align: top;
+  }
+
+  .container .page .comments .comment .date{
+    display: block;
+  }
+
+  .container .page .booklist{
+    display: block;
+    border: 2px solid;
+    border-color: gray;
+    margin: 10px;
+    margin-top: 60px;
+  }
+
+  .container .page .booklist .booklist_book{
+    width: 200px;
+    height: 360px;
+    border: 10px solid;
+    border: 2px solid;
+    display: inline-block;
+  }
+
+  .container .page .booklist .booklist_book > h1{
+    font-size: 17px;
+    font-family: Verdana,Arial;
+  }
+
+  .container .page .booklist .booklist_book > img{
+    width: 200px;
+    height: 256px;
+    display: block;
+    float: inline-start;
+  }
+
+  .container .page .booklist .booklist_book > p{
+    display: block;
+    float: inline-start;
+  }
+
+  .container .comment{
+    border: 2px solid;
+  }
+
+  .loginform, .registerform {
+    background-color: #4d94ff;
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+  }
+
+  .registerform{
+    margin-top: 1 00px;
+    height: 440px;
+  }
+
+  .loginform > input, .registerform > input {
+    width: 260px;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+.registerform > input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+.registerform > input:focus:invalid {
+  box-shadow: none;
+}
+
+.loginform > label,.registerform > label, .loginform > button, .registerform > button{
+  margin: 8px 20px;
+}
+
+@media print {
+  header, button, img {
+   display: none;
+  }
+ }
+
+#advsearch{
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: left;
+    width: 1060px;
+ }
